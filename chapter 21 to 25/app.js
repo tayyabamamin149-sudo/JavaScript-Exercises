@@ -121,11 +121,44 @@
 
 // Question15
 // var password = prompt("Enter your password:");
+// var hasCapitalAlphabets = false
+// var hasSmallAlphabets = false
+// var hasNumber = false
+// var startsWithNumber = false
 
+// if (password.length < 6) {
+//     alert("It must be at least 6 characters long");
+// } else{
+//     for(var i=0; i<password.length;i++){
+//         // console.log(password.charCodeAt(i), password.charAt(i));
+//         var code = password.charCodeAt(i)
+//         if(code >=65 && code <= 90){
+//             hasCapitalAlphabets = true
+//         }
+//         if(code >=97 && code <= 122){
+//             hasSmallAlphabets =true
+//         }
+//         if(code >=48 && code <= 57){
+//             hasNumber=true
+//         }
+//         if(i===0 && code >=48 && code <= 57){
+//             startsWithNumber=true
+//         }    
+//     }
+// }
+// if(!hasCapitalAlphabets ){
+//     alert("Password must contain Capital alphabets")
+// }
+// if(!hasSmallAlphabets ){
+//     alert("Password must contain Small alphabets")
+// }
+// if(!hasNumber){  
+//     alert("Password must contain numbers")
+// }
+// if(startsWithNumber){
+//     alert("Password must not start with numbers")
 
-//     document.write("Entered password: " + password + "<br>");
-//     document.write("Password can not begin with a number. " + "<br>")
-//     document.write("Password enter a valid password.");
+// }
 
 // Question16
 // var university = "University of Karachi";
