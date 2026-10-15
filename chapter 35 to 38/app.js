@@ -194,4 +194,18 @@
 // calcCircumference(5);
 // calcArea(5);
 
+function calcCircumference(radius) {
+    var circumference = 2 * Math.PI * radius;
+    document.write("The circumference is " + circumference + "<br>");
+}
+
+function calcArea(radius) {
+    var area = Math.PI * radius * radius;
+    document.write("The area is " + area);
+}
+
+calcCircumference(5);
+calcArea(5);
+
+
 
